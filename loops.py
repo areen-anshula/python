@@ -21,3 +21,5 @@ res = [n ** 2 for n in num]
 print(res)    
 
 #using map
+mapIsHere = list(map(lambda a: a * 2, num))
+print(mapIsHere)
