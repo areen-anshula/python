@@ -1,0 +1,7 @@
+a  = int(input())
+english_set = set(input().split())
+b = int(input())
+french_set = set(input().split())
+intersection_set = english_set.intersection(french_set)
+total = len(intersection_set)
+print(total)
