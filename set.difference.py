@@ -1,0 +1,7 @@
+a = int(input())
+english_set = set(input().split())
+b = int(input())
+french_set = set(input().split())
+differnce_set = english_set.difference(french_set)
+total = len(differnce_set)
+print(total)
