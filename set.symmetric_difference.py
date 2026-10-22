@@ -1,0 +1,7 @@
+a = int(input())
+english_set = set(input().split())
+b = int(input())
+french_set = set(input().split())
+new_set = english_set.symmetric_difference(french_set)
+count = len(new_set)
+print(count)
